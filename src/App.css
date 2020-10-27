@@ -1,38 +1,102 @@
-.App {
+html{
+  font-size: 20px;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  border-radius: 5rem;
+  background-color: cornsilk;
+  background-blend-mode: color;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+
+.title{
+  font-size: 3rem;
+  color: cornflowerblue;
   text-align: center;
+  text-shadow: 2px 2px black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form{
+  display: grid;
+  margin-left: 20rem;
+  margin-right: 20rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.label{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 0.2rem;
+
+}
+
+.input{
+  border-radius: 20px;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+
+.search-button{
+  background-color: rgba(0, 0, 0, 0.75);
   color: white;
+  border-radius: 20px;
+  padding: 0.1rem 2rem;
+  line-height: 2rem;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.search-button:hover{
+  background-color: rgba(0, 0, 0, 0.85);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-list:not(:empty) {
+  margin-top: 4rem;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border-radius: 2rem;
+
+  width: 30rem;
+  height: 50rem;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin; 
 }
+
+.card{
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 2rem;
+  background-color: white;
+}
+
+.card--title{
+  margin-bottom: 0.5rem;
+  font-size: 2.2rem;
+}
+
+.card--image{
+  margin:0 auto;
+  display: block;
+}
+
+
+
+
