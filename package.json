@@ -1,6 +1,6 @@
 {
-  "name": "tmdb-movie-search-app",
-  "homepage": "https://github.com/Jestin64/jestin64.github.io.git",
+  "name": "tmdb-movie-search-app", 
+  "homepage": "http://Jestin64.github.io/jestin64.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
