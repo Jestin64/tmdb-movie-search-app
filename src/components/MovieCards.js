@@ -3,7 +3,10 @@ import React from "react"
 
 function MovieCards(props){
     return (
-        <div className="card">
+        <div className="card" 
+        style={{
+            backgroundImage: 'url('+`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${props.movie.poster_path}`+')', 
+          }}>
             <img className='card--image'
                 src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${props.movie.poster_path}`}
                 alt={props.movie.original_title + 'poster'} />
