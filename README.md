@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Project: Movie search app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# description: searches and displays movies and some details
+
+# Website Used: The Movie Database (TMDB) and its api
+
+# Technology and tools used: Reactjs, nodejs, yarn.
+
 
 ## Available Scripts
 
