@@ -6,7 +6,7 @@ function MovieCards(props){
         <div className="card" 
         style={{
             backgroundImage: 'url('+`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${props.movie.poster_path}`+')',
-            backgroundSize: "cover", 
+            backgroundSize: "cover"
           }}>
             <img className='card--image'
                 src={`https://image.tmdb.org/t/p/w185_and_h278_bestv2/${props.movie.poster_path}`}
